@@ -60,6 +60,8 @@ Aby uruchomić aplikację lokalnie, wykonaj następujące kroki:
     ```
     Aplikacja będzie dostępna pod adresem **http://localhost:3000** (lub innym, wskazanym przez terminal).
 
+Możesz też uruchomić aplikację pod tym linkiem: https://listazakupow-wine.vercel.app/
+
 ---
 
 ## Użycie w praktyce 💡
