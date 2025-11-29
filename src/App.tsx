@@ -2,6 +2,7 @@ import { type FormEvent, useState } from 'react';
 import React from 'react';
 import { v4 as uuid } from 'uuid';
 import './App.css';
+import { Analytics } from "@vercel/analytics/next";
 
 type groceries = {
 	id: string;
@@ -37,6 +38,7 @@ function App() {
 			<FilterItems ChangeSetCurrentCategory={ChangeSetCurrentCategory} />
 			<ListBox groceryList={groceryList} deleteGrocery={deleteGrocery} currentCategory={currentCategory}/>
 			<FormAddThing addGrocery={addGrocery} />
+			<Analytics />
 		</div>
 	);
 }
